@@ -1,0 +1,471 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+.navbar .navigation {
+  padding-top: 50px;
+}
+.navbar .navigation nav ul {
+  display: flex;
+}
+.navbar .navigation nav ul li {
+  font-size: 0;
+  margin-left: 20px;
+}
+.navbar .navigation nav ul li a {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #768C4C;
+}
+.navbar .rechercher {
+  display: flex;
+  padding-top: 50px;
+  position: relative;
+}
+.navbar .rechercher .logosearch i {
+  color: #768C4C;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.navbar .rechercher .textsearch p {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #768C4C;
+}
+.navbar .rechercher .trait {
+  position: absolute;
+  height: 2px;
+  width: 300px;
+  background-color: #768C4C;
+  bottom: 60px;
+}
+.navbar .logosnavbar {
+  display: flex;
+  margin-top: 50px;
+}
+.navbar .logosnavbar .logouser {
+  color: #768C4C;
+  font-size: 25px;
+  margin-right: 15px;
+}
+.navbar .logosnavbar .logoshop {
+  color: #768C4C;
+  font-size: 25px;
+}
+.navbar .logosnavbar .logoshop i:after {
+  display: block;
+  content: "1";
+  font-size: 10px;
+  text-align: center;
+  padding: 2px 5px;
+  display: inline-block;
+  color: white;
+  background-color: #87608F;
+  border-radius: 50%;
+  position: relative;
+  top: 6px;
+  right: 10px;
+}
+
+header .navhead {
+  background-color: #768C4C;
+}
+header .navhead ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 50px;
+}
+header .navhead ul li {
+  font-size: 0;
+}
+header .navhead ul li a {
+  font-size: 18px;
+  color: white;
+}
+header .imghead {
+  height: 600px;
+}
+header .imghead img {
+  height: 100%;
+  width: 100%;
+}
+
+.points {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.points p {
+  font-size: 80px;
+  color: grey;
+}
+.points p:nth-of-type(2) {
+  color: rgba(128, 128, 128, 0.385);
+}
+.points p:nth-of-type(3) {
+  color: rgba(128, 128, 128, 0.385);
+}
+
+.groupecerises {
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 200px;
+}
+
+.sectioncerises h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #87608F;
+  font-size: 40px;
+  padding: 0 100px 50px 100px;
+}
+.sectioncerises .lotcerises1 {
+  border: solid #87608F;
+  width: 20%;
+  position: relative;
+}
+.sectioncerises .lotcerises1 .new {
+  position: absolute;
+  background-color: #87608F;
+  top: 0;
+  left: 0;
+}
+.sectioncerises .lotcerises1 .new a {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.sectioncerises .lotcerises1 .plus {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.sectioncerises .lotcerises1 .plus i {
+  font-size: 28px;
+  background-color: #87608F;
+  color: white;
+  padding: 5px;
+}
+.sectioncerises .lotcerises1 .cerise .imgcerise img {
+  margin: 0 auto;
+  padding: 50px 15px;
+}
+.sectioncerises .lotcerises1 .cerise .textcerise h2 {
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0 0 15px 15px;
+}
+.sectioncerises .lotcerises1 .cerise .textcerise p {
+  padding-left: 15px;
+  font-size: 20px;
+}
+.sectioncerises .lotcerises1 .cerise .textcerise p:nth-of-type(2) {
+  font-size: 15px;
+  padding-top: 5px;
+}
+.sectioncerises .lotcerises1 .cerise .textcerise p:nth-of-type(3) {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.histoire {
+  height: 500px;
+  display: flex;
+  padding: 20px 100px;
+}
+.histoire .imghistoire {
+  width: 70%;
+}
+.histoire .imghistoire img {
+  width: 100%;
+  height: 100%;
+}
+.histoire .texthistoire {
+  width: 30%;
+  background-color: rgba(200, 192, 192, 0.345);
+}
+.histoire .texthistoire h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #87608F;
+  font-size: 40px;
+  padding: 20px 0;
+}
+.histoire .texthistoire p {
+  font-size: 17px;
+  text-align: center;
+  padding: 40px 40px;
+  margin-bottom: 100px;
+}
+.histoire .texthistoire a {
+  background-color: #87608F;
+  color: white;
+  font-size: 25px;
+  margin-left: 20%;
+  padding: 5px 70px;
+}
+
+.histoire2 {
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 40px 100px;
+  margin-bottom: 100px;
+}
+.histoire2 .imghistoire {
+  width: 70%;
+}
+.histoire2 .imghistoire img {
+  width: 100%;
+  height: 100%;
+}
+.histoire2 .texthistoire {
+  width: 30%;
+  background-color: rgba(200, 192, 192, 0.345);
+}
+.histoire2 .texthistoire h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #87608F;
+  font-size: 40px;
+  padding: 20px 0;
+}
+.histoire2 .texthistoire p {
+  font-size: 17px;
+  text-align: center;
+  padding: 40px 40px;
+  margin-bottom: 100px;
+}
+.histoire2 .texthistoire a {
+  background-color: #87608F;
+  color: white;
+  font-size: 25px;
+  margin-left: 20%;
+  padding: 5px 70px;
+}
+
+.engagements {
+  padding: 50px 0;
+}
+.engagements h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #87608F;
+  font-size: 40px;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+.engagements .imagesrondes {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 100px;
+}
+.engagements .imagesrondes .rond1 img {
+  padding-bottom: 30px;
+}
+.engagements .imagesrondes .rond1 p {
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+}
+.engagements .imagesrondes .rond2 img {
+  padding-bottom: 30px;
+}
+.engagements .imagesrondes .rond2 p {
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+}
+.engagements .imagesrondes .rond3 img {
+  padding-bottom: 30px;
+}
+.engagements .imagesrondes .rond3 p {
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+}
+.engagements .imagesrondes .rond4 img {
+  padding-bottom: 30px;
+}
+.engagements .imagesrondes .rond4 p {
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: space-around;
+  background-color: #D5DCCA;
+  padding: 40px 200px;
+}
+.newsletter .textnews {
+  width: 30%;
+  padding-left: 150px;
+}
+.newsletter .textnews p:nth-of-type(1) {
+  font-size: 21px;
+  font-weight: 600;
+}
+.newsletter .textnews p:nth-of-type(2) {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 2px;
+}
+.newsletter .encadreblanc {
+  width: 40%;
+  background-color: white;
+}
+.newsletter .inscription {
+  width: 10%;
+  background-color: #87608F;
+}
+.newsletter .inscription p {
+  text-align: center;
+  color: white;
+  padding-top: 15px;
+}
+
+footer .containerfooter {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  background-color: #768C4C;
+}
+footer .containerfooter .footerlogo img {
+  height: 25%;
+  padding-bottom: 25px;
+}
+footer .containerfooter .footerlogo .footeradress {
+  display: flex;
+}
+footer .containerfooter .footerlogo .footeradress .logoadress i {
+  font-size: 25px;
+  color: white;
+}
+footer .containerfooter .footerlogo .footeradress .textadress {
+  padding-left: 10px;
+}
+footer .containerfooter .footerlogo .footeradress .textadress p {
+  color: white;
+}
+footer .containerfooter .footerlogo .phonefooter {
+  display: flex;
+  padding-top: 10px;
+}
+footer .containerfooter .footerlogo .phonefooter .logophone i {
+  font-size: 25px;
+  color: white;
+}
+footer .containerfooter .footerlogo .phonefooter .number {
+  padding-left: 5px;
+}
+footer .containerfooter .footerlogo .phonefooter .number p {
+  color: white;
+}
+footer .containerfooter .list {
+  padding-top: 50px;
+}
+footer .containerfooter .list a {
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  display: block;
+}
+footer .containerfooter .contactfooter {
+  padding-top: 50px;
+}
+footer .containerfooter .contactfooter p {
+  color: white;
+}
+footer .containerfooter .contactfooter p:nth-of-type(1) {
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+footer .containerfooter .contactfooter p:nth-of-type(2) {
+  font-weight: 200;
+}
+footer .containerfooter .contactfooter p:nth-of-type(3) {
+  font-weight: 200;
+}
+footer .containerfooter .footerend {
+  padding-top: 50px;
+  width: 20%;
+}
+footer .containerfooter .footerend p {
+  color: white;
+}
+footer .containerfooter .footerend p:nth-of-type(1) {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+footer .containerfooter .footerend p:nth-of-type(2) {
+  font-weight: 200;
+}
+footer .containerfooter .footerend p:nth-of-type(3) {
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+footer .containerfooter .footerend p:nth-of-type(4) {
+  text-transform: uppercase;
+}
+footer .containerfooter .footerend .payment {
+  display: flex;
+}
+footer .containerfooter .footerend .payment .masterclass {
+  padding: 10px 0;
+}
+footer .containerfooter .footerend .payment .masterclass img {
+  width: 3rem;
+  height: 2rem;
+  background-color: white;
+  margin-right: 2%;
+}
+footer .containerfooter .footerend .payment .visa {
+  padding: 10px 0;
+}
+footer .containerfooter .footerend .payment .visa img {
+  width: 3rem;
+  height: 2rem;
+  background-color: white;
+  margin: 0 35%;
+}
+footer .legalmentions {
+  padding: 50px;
+  background-color: #435326;
+}
+footer .legalmentions p {
+  text-align: center;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
